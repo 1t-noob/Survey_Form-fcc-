@@ -16,6 +16,48 @@
     </header>
 
     <form id="survey-form">
+        <div class="row">
+            <div class="intr_text">
+                <label for="name">Name</label>
+            </div>
+            <div class="entr-inf">
+                <input type="text" id="name" name="name" placeholder="Enter Your name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="intr_text">
+                <label for="email">Email</label>
+            </div>
+            <div class="entr-inf">
+                <input type="email" id="email" name="email" placeholder="Enter your Email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="intr_text">
+                <label for="email">Age</label>
+            </div>
+            <div class="entr-inf">
+                <input type="number" step="1" min="10" max="99" id="age" name="ega" placeholder="Enter your Age">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="intr_text">
+                <label for="dropdown">Which option best describes your current role?</label>
+            </div>
+            <div class="entr-inf">
+                <select id="dropdown" name="dropdown" >
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full time Job</option>
+                    <option value="leaner">Full time Leaner</option>
+                    <option value="dknw">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
 
     </form>
 

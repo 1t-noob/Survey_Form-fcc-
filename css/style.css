@@ -1,5 +1,14 @@
+html {
+
+}
 header {
     overflow: hidden;
+    text-align: center;
+    color: white;
+
+}
+#title, #description {
+        padding-top: 50px;
 }
 body {
     margin: 0;
@@ -8,11 +17,9 @@ body {
 body:before {
     background-color: rgba(27, 27, 50, 0.6);
     opacity: 0.5;
-
+    box-sizing: border-box;
 }
-h1 {
 
-}
 
 .container {
     background-size: cover;
@@ -20,8 +27,13 @@ h1 {
     url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 form {
-height: 900px;
+    /*height: 80vh;*/
+    max-width: 750px;
+    margin: auto;
+    background-color: rgba(25, 25, 60, 0.7);
+    border-radius: 5px;
 }
