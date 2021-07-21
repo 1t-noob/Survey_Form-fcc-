@@ -57,20 +57,20 @@ form {
     padding-bottom: 20px;
 }
 
-.form_input, #dropdown {
+.form_input, #dropdown, #dropdown_2 {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     width: 90%;
     height: 35px;
     border-radius: 5px;
 }
 
-.form_input:focus, #dropdown:focus {
+.form_input:focus, #dropdown:focus, #dropdown_2:focus {
     border-color: aqua;
     outline: 0;
     box-shadow: 0 0 0 3px rgba(0, 75, 255, 0.77);
 }
 
-#dropdown {
+#dropdown, #dropdown_2 {
     width: 91%;
 }
 
@@ -87,23 +87,43 @@ form {
     padding-left: 5px;
 }
 
-input::placeholder, #dropdown {
+input::placeholder, #dropdown, #dropdown_2 {
     font-size: 16px;
     padding-left: 10px;
     color: #495057;
 }
 
-.checkbox_menu, .radio_menu {
+.radio_menu {
     padding-left: 40px;
     color: #ffffff;
     font-size: 20px;
     padding-bottom: 20px;
 }
+
 .checkbox, .radio {
     width: 15px;
     height: 15px;
 }
 
+.checkbox_menu {
+    display: grid;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+}
+textarea::placeholder {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
 
 
 
