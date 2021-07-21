@@ -16,25 +16,23 @@
     </header>
 
     <form id="survey-form">
-        <div class="row">
+        <div class="form_group">
             <div class="intr_text">
                 <label for="name">Name</label>
             </div>
             <div class="entr-inf">
                 <input type="text" id="name" name="name" placeholder="Enter Your name" class="form_input">
             </div>
-        </div>
 
-        <div class="row">
+
             <div class="intr_text">
                 <label for="email">Email</label>
             </div>
             <div class="entr-inf">
                 <input type="email" id="email" name="email" placeholder="Enter your Email" class="form_input">
             </div>
-        </div>
 
-        <div class="row">
+
             <div class="intr_text">
                 <label for="email">Age</label>
             </div>
@@ -43,9 +41,8 @@
                        class="form_input">
             </div>
         </div>
-
-
-        <div class="row">
+        <!--            DROPDOWN  №1          -->
+        <div class="form_group">
             <div class="intr_text">
                 <label for="dropdown">Which option best describes your current role?</label>
             </div>
@@ -60,26 +57,26 @@
                 </select>
             </div>
         </div>
-
-        <div class="row">
+        <!--            RADIO           -->
+        <div class="form_group">
             <div class="intr_text">Would you recommend freeCodeCamp to a friend?</div>
+
+            <div class="radio_menu">
+
+                <div><input id="radio-1" name="radio" type="radio" checked class="radio">
+                    <label for="radio-1" class="radio-label">Definitely</label></div>
+
+
+                <div><input id="radio-2" name="radio" type="radio" class="radio">
+                    <label for="radio-2" class="radio-label">May be</label></div>
+
+                <div><input id="radio-3" name="radio" type="radio" class="radio">
+                    <label for="radio-3" class="radio-label">Not sure</label></div>
+            </div>
         </div>
 
-        <div class="radio_menu">
-
-            <div><input id="radio-1" name="radio" type="radio" checked class="radio">
-                <label for="radio-1" class="radio-label">Definitely</label></div>
-
-
-            <div><input id="radio-2" name="radio" type="radio" class="radio">
-                <label for="radio-2" class="radio-label">May be</label></div>
-
-            <div><input id="radio-3" name="radio" type="radio" class="radio">
-                <label for="radio-3" class="radio-label">Not sure</label></div>
-        </div>
-
-
-        <div class="row">
+        <!--            DROPDOWN  №2          -->
+        <div class="form_group">
             <div class="intr_text">
                 <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
             </div>
@@ -94,8 +91,8 @@
                 </select>
             </div>
         </div>
-
-        <div class="row">
+        <!--           CHECKBOX        -->
+        <div class="form_group">
             <div class="intr_text">What would you like to see improved? (Check all that apply)</div>
             <div class="checkbox_menu">
                 <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end
@@ -119,21 +116,18 @@
                                                                                                               Courses</label>
             </div>
         </div>
-
-        <div class="row">
+        <!--            TEXTAREA           -->
+        <div class="form_group">
             <div class="intr_text">What would you like to see improved? (Check all that apply)</div>
             <textarea name="comment" placeholder="Enter your comment here..." class="input_textarea"></textarea>
         </div>
-
-        <div class="row">
+        <!--            BUTTON       -->
+        <div class="form_group">
             <button class="btn">
                 <p>BUTTON</p>
             </button>
 
         </div>
-
-
-
 
 
     </form>

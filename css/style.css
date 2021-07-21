@@ -43,9 +43,10 @@ form {
     padding-top: 50px;
 }
 
-.row {
+.form_group {
     color: #ffffff;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .intr_text {
@@ -94,7 +95,7 @@ input::placeholder, #dropdown, #dropdown_2 {
 }
 
 .radio_menu {
-    padding-left: 40px;
+
     color: #ffffff;
     font-size: 20px;
     padding-bottom: 20px;
@@ -122,13 +123,16 @@ textarea {
     height: 100px;
     padding-bottom: 50px;
 }
+
 textarea::placeholder {
     padding: 5px;
     font-size: 16px;
 }
+
 .input_textarea {
     padding: 10px;
 }
+
 .btn {
     width: 90%;
     background-color: chartreuse;
@@ -138,8 +142,9 @@ textarea::placeholder {
     font-weight: bold;
 
 }
+
 button {
-   margin: 50px auto;
+    margin: 50px auto;
 }
 
 
