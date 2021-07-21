@@ -116,13 +116,30 @@ label {
 }
 
 textarea {
+    box-sizing: border-box;
+    font-size: 16px;
     width: 90%;
     height: 100px;
+    padding-bottom: 50px;
 }
 textarea::placeholder {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 5px;
     font-size: 16px;
+}
+.input_textarea {
+    padding: 10px;
+}
+.btn {
+    width: 90%;
+    background-color: chartreuse;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+button {
+   margin: 50px auto;
 }
 
 
